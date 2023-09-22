@@ -42,6 +42,17 @@ class _DiceRollerState extends State<DiceRoller> {
           ),
           child: const Text('Roll Dice'),
         ),
+        const SizedBox(height: 100),
+        const Center(
+          child: Text(
+            'Tanmoy',
+            style: TextStyle(
+              fontSize: 20,
+              color: Color.fromARGB(255, 220, 103, 115),
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+        ),
       ],
     );
   }
